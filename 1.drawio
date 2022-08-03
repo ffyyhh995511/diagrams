@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T09:46:01.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="18.0.8" etag="VFqUSMY8yHeu4PFGgE7L" type="github"><diagram id="8-8gHvUHSm1OX7X32suz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-03T09:58:38.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6BCVTifs4-l8G3Vvv6f2" version="18.0.8" type="github">
+  <diagram id="8-8gHvUHSm1OX7X32suz" name="第 1 页">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IQmeJuna6NQWmFTrqd04-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQmeJuna6NQWmFTrqd04-7" target="IQmeJuna6NQWmFTrqd04-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-7" value="游客登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQmeJuna6NQWmFTrqd04-8" target="IQmeJuna6NQWmFTrqd04-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-8" value="账号登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="IQmeJuna6NQWmFTrqd04-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="320" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IQmeJuna6NQWmFTrqd04-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="430" as="sourcePoint" />
+            <mxPoint x="480" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-12" value="数据清洗完后，&lt;br&gt;能正常登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-14" value="数据清洗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-15" value="数据清洗完后，&lt;br&gt;如果该账号已经登录了多个设备，缓存只随机记录其中一个，其他设备会提示token不合法，1.0.0版本用户自己租退登录业做退登操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="360" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-19" value="数据清洗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="550" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-21" value="v1.0.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="310" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-22" value="v1.1.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="575" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQmeJuna6NQWmFTrqd04-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-24" value="游客登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQmeJuna6NQWmFTrqd04-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-25" value="账号登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.94;exitY=-0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQmeJuna6NQWmFTrqd04-22" target="IQmeJuna6NQWmFTrqd04-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="550" as="sourcePoint" />
+            <mxPoint x="480" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="347" y="610" as="sourcePoint" />
+            <mxPoint x="480" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-29" value="一个uid只有一个token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-30" value="一个uid只有一个token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-34" value="单设备登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQmeJuna6NQWmFTrqd04-36" value="单设备登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
